@@ -1,0 +1,40 @@
+{
+  "provenance": {
+    "notebook": "code_demo_minh_họa_.ipynb",
+    "dataset": "IBM Telco Customer Churn",
+    "dataset_url": "https://www.kaggle.com/datasets/blastchar/telco-customer-churn",
+    "chapter_url": "https://clauswilke.com/dataviz/visualizing-uncertainty.html",
+    "original_rows": 7043,
+    "analysis_rows": 7032,
+    "note": "The notebook removes 11 rows whose TotalCharges value is blank before producing downstream figures."
+  },
+  "frequency_framing": {
+    "Month-to-month": { "n": 3875, "rate": 0.4271, "per_100": 43 },
+    "Two year": { "n": 1685, "rate": 0.0285, "per_100": 3 }
+  },
+  "gender_difference": {
+    "female_rate": 0.270,
+    "male_rate": 0.262,
+    "female_minus_male": 0.008,
+    "bootstrap_95": [-0.013, 0.029],
+    "probability_female_higher": 0.769
+  },
+  "monthly_charges_two_year_churned": {
+    "n": 48,
+    "mean": 86.78,
+    "sample_sd": 28.92,
+    "standard_error": 4.17,
+    "ci_80": [81.35, 92.20],
+    "ci_95": [78.38, 95.17],
+    "ci_99": [75.57, 97.98]
+  },
+  "tenure_bins": [
+    { "bin": "1–6", "n": 1470, "churned": 784, "rate": 0.533333, "mean_tenure": 2.529252 },
+    { "bin": "7–12", "n": 705, "churned": 253, "rate": 0.358865, "mean_tenure": 9.397163 },
+    { "bin": "13–24", "n": 1024, "churned": 294, "rate": 0.287109, "mean_tenure": 18.351562 },
+    { "bin": "25–36", "n": 832, "churned": 180, "rate": 0.216346, "mean_tenure": 30.338942 },
+    { "bin": "37–48", "n": 762, "churned": 145, "rate": 0.190289, "mean_tenure": 42.581365 },
+    { "bin": "49–60", "n": 832, "churned": 120, "rate": 0.144231, "mean_tenure": 54.489183 },
+    { "bin": "61–72", "n": 1407, "churned": 93, "rate": 0.066098, "mean_tenure": 68.110163 }
+  ]
+}
