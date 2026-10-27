@@ -1,0 +1,21 @@
+Cell2Cell  |  17 
+5 5 Vượt gói và sử dụng roaming 
+ 
+Hình 5.5 Phút vượt hạn mức: nhóm >65–4,321 ghi nhận churn 31.0% 
+Phút vượt hạn mức: Nhóm >65–4,321 có 9,164 khách hàng, 2,841 churn, tỷ lệ 31.0% (CI 95% 30.1%–
+32.0%). Nhóm >0–18 ghi nhận 27.0%; chênh lệch quan sát 4.0 điểm phần trăm. 
+Có thể dùng phút vượt hạn mức để bổ sung phân nhóm kiểm tra vận hành, kết hợp quy mô nhóm, giá 
+trị và các tín hiệu khác; một biến riêng lẻ chưa đủ để quyết định can thiệp. 
+Chỉ số roaming: Nhóm >2–1,112 có 5,206 khách hàng, 1,599 churn, tỷ lệ 30.7% (CI 95% 29.5%–
+32.0%). Nhóm >0–0.5 ghi nhận 27.2%; chênh lệch quan sát 3.5 điểm phần trăm. 
+Có thể dùng chỉ số roaming để bổ sung phân nhóm kiểm tra vận hành, kết hợp quy mô nhóm, giá trị và 
+các tín hiệu khác; một biến riêng lẻ chưa đủ để quyết định can thiệp. 
+Vượt gói và roaming có thể tạo khoản chi không đều giữa các khách hàng. Chúng cũng có thể đơn 
+giản phản ánh nhu cầu cao hoặc di chuyển nhiều. Cần đọc số khách hàng trong mỗi nhóm để tránh 
+diễn giải một nhóm hiếm như một vấn đề phổ biến trên toàn công ty. 
+Hành động nên bắt đầu từ kiểm tra sự phù hợp của gói và độ rõ ràng của hóa đơn. Cảnh báo chi tiêu 
+và giải thích lựa chọn gói có thể là phương án ít tốn kém hơn giảm giá. Khi thiết kế ưu đãi roaming, cần 
+tính chi phí cung cấp dịch vụ và xem xét doanh thu đóng góp thay vì chỉ nhìn tổng doanh thu. 
+Khác biệt churn theo nhóm là căn cứ chọn đối tượng cần chẩn đoán. Để chứng minh chính sách về gói 
+cước hiệu quả, công ty cần một thử nghiệm có chi phí và tiêu chí giữ chân được xác định trước. 
+  

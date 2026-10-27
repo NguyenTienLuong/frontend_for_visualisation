@@ -1,0 +1,25 @@
+﻿variable,n_negative,action
+MonthlyMinutes,0,Investigate if negative; no automatic row deletion
+DirectorAssistedCalls,0,Investigate if negative; no automatic row deletion
+OverageMinutes,0,Investigate if negative; no automatic row deletion
+RoamingCalls,0,Investigate if negative; no automatic row deletion
+DroppedCalls,0,Investigate if negative; no automatic row deletion
+BlockedCalls,0,Investigate if negative; no automatic row deletion
+UnansweredCalls,0,Investigate if negative; no automatic row deletion
+CustomerCareCalls,0,Investigate if negative; no automatic row deletion
+ThreewayCalls,0,Investigate if negative; no automatic row deletion
+ReceivedCalls,0,Investigate if negative; no automatic row deletion
+OutboundCalls,0,Investigate if negative; no automatic row deletion
+InboundCalls,0,Investigate if negative; no automatic row deletion
+PeakCallsInOut,0,Investigate if negative; no automatic row deletion
+OffPeakCallsInOut,0,Investigate if negative; no automatic row deletion
+DroppedBlockedCalls,0,Investigate if negative; no automatic row deletion
+CallForwardingCalls,0,Investigate if negative; no automatic row deletion
+CallWaitingCalls,0,Investigate if negative; no automatic row deletion
+MonthsInService,0,Investigate if negative; no automatic row deletion
+UniqueSubs,0,Investigate if negative; no automatic row deletion
+ActiveSubs,0,Investigate if negative; no automatic row deletion
+Handsets,0,Investigate if negative; no automatic row deletion
+CurrentEquipmentDays,76,Investigate if negative; no automatic row deletion
+RetentionCalls,0,Investigate if negative; no automatic row deletion
+ReferralsMadeBySubscriber,0,Investigate if negative; no automatic row deletion

@@ -1,0 +1,25 @@
+Cell2Cell  |  28 
+CHƯƠNG 10 HIỆU QUẢ LỰA CHỌN KHÁCH HÀNG 
+Khả năng sắp hạng có ý nghĩa khi công ty không thể liên hệ mọi khách hàng. Phân tích targeting xếp 
+khách hàng test theo điểm giảm dần và tính chất lượng tại các mức bao phủ. Các kết quả này không 
+dùng nhãn test để thay đổi mô hình hoặc chọn lại ngưỡng. 
+ 
+Hình 10.1 Top 20% rủi ro bao phủ 34.6% churner trên test 
+Bảng 10.1 Hiệu quả tại các mức năng lực liên hệ trên test 
+Bao phủ Khách hàng Precision Churn được phủ Lift 
+5% 509 61,7% 10,7% 2,14 
+10% 1.018 57,2% 19,9% 1,99 
+20% 2.036 49,8% 34,6% 1,73 
+30% 3.054 46,0% 48,0% 1,60 
+ 
+Precision trong nhóm được chọn cho biết mức tập trung churn lịch sử; cumulative gains cho biết phần 
+churn được bao phủ khi mở rộng liên hệ. Lift so sánh precision đó với tỷ lệ churn nền. Cả ba đo chất 
+lượng lựa chọn, không đo khả năng khách hàng thay đổi quyết định sau một offer. 
+Bảng trên chọn đúng số khách hàng theo tỷ lệ bao phủ và thứ tự điểm. Kết quả có thể lệch nhẹ so với 
+ma trận nhầm lẫn ở Chương 8 vì ma trận áp một ngưỡng cố định học từ validation, trong khi bảng 
+targeting lấy đúng thứ hạng trên test. Hai cách trả lời hai quyết định khác nhau và không được đổi mẫu 
+số để làm khớp kết quả. 
+Kết luận chương 10. Bộ phận retention có thể dùng bảng bao phủ để lập phương án nguồn lực. Quy 
+mô cuối cùng phải phụ thuộc chi phí, năng lực xử lý và giá trị giữ chân tăng thêm được đo bằng thử 
+nghiệm, thay vì lấy một tỷ lệ liên hệ cố định làm mục tiêu lâu dài. 
+  

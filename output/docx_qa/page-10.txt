@@ -1,0 +1,34 @@
+Cell2Cell  |  10 
+3 2 Tính hợp lệ theo thời điểm và rò rỉ dữ liệu 
+Mô hình vận hành được định nghĩa tại thời điểm trước khi khách hàng được đưa vào xử lý retention. 
+Một biến phản ánh việc đã gọi bộ phận giữ chân hoặc đã nhận ưu đãi có thể xuất hiện cùng quá trình 
+phát hiện ý định rời bỏ. Không thể khẳng định biến này sẵn có trước quyết định can thiệp chỉ dựa vào 
+tương quan với nhãn churn. 
+Bảng 3.1 Các quyết định xử lý phục vụ cảnh báo sớm 
+Vấn đề Quyết định Lý do 
+Biến retention RetentionCalls, RetentionOffersAccepted, 
+MadeCallToRetentionTeam 
+Không chứng minh được tính sẵn có trước 
+can thiệp 
+Mã định danh CustomerID, ServiceArea Dùng để đối chiếu hồ sơ thay vì suy luận rủi 
+ro 
+Giá trị số thiếu Trung vị từ tập huấn luyện Giảm ảnh hưởng đuôi phân phối và tránh rò rỉ 
+tập kiểm tra 
+Phân loại thiếu Trạng thái thiếu riêng Bảo toàn quy mô và khả năng nhận diện 
+thiếu dữ liệu 
+Giá trị cực trị Giữ lại và mô tả Phân biệt hành vi thật với lỗi nhập dữ liệu 
+Ngưỡng và hiệu chỉnh Chọn trên validation Không tối ưu quyết định trên tập test 
+ 
+Các trường retention vẫn được dùng để mô tả quy trình hỗ trợ. Tỷ lệ churn cao trong nhóm đã liên hệ 
+retention có thể phản ánh việc công ty chọn đúng các khách hàng khó giữ, và không được diễn giải là 
+liên hệ retention làm tăng churn. Đánh giá ưu đãi cần phân nhóm thử nghiệm hoặc thiết kế nhân quả 
+phù hợp. 
+3 3 Phân tách dữ liệu và kiểm soát quy trình 
+Mọi bước có tham số học từ dữ liệu được đặt trong pipeline. Tham số điền thiếu, chuẩn hóa và mã hóa 
+được fit trên tập huấn luyện; validation phục vụ chọn mô hình, ngưỡng và hiệu chỉnh; test chỉ phục vụ 
+báo cáo cuối. Việc chia có phân tầng theo nhãn giúp giữ cấu trúc churn của từng phần nhưng không 
+thay thế đánh giá theo thời gian khi triển khai. 
+Kết luận chương 3. Tập phân tích mô tả bảo toàn thông tin cần thiết, còn mô hình cảnh báo sớm chỉ 
+dùng các đặc trưng được chấp nhận trong phạm vi thời điểm dự đoán. Hạn chế lớn còn lại là thiếu lịch 
+sử dọc theo thời gian để xác minh đầy đủ thời điểm xuất hiện của từng trường. 
+  

@@ -1,0 +1,27 @@
+Cell2Cell  |  18 
+5 6 Chất lượng cuộc gọi và liên hệ với churn 
+ 
+Hình 5.6 Cuộc gọi bị rớt: nhóm 0–0.7 ghi nhận churn 30.8% 
+Cuộc gọi bị rớt: Nhóm 0–0.7 có 12,813 khách hàng, 3,942 churn, tỷ lệ 30.8% (CI 95% 30.0%–31.6%). 
+Nhóm 7.7–221.7 ghi nhận 27.5%; chênh lệch quan sát 3.3 điểm phần trăm. 
+Có thể dùng cuộc gọi bị rớt để bổ sung phân nhóm kiểm tra vận hành, kết hợp quy mô nhóm, giá trị và 
+các tín hiệu khác; một biến riêng lẻ chưa đủ để quyết định can thiệp. 
+Cuộc gọi bị chặn: Nhóm 0 có 13,812 khách hàng, 4,162 churn, tỷ lệ 30.1% (CI 95% 29.4%–30.9%). 
+Nhóm >3.7–384.3 ghi nhận 28.2%; chênh lệch quan sát 1.9 điểm phần trăm. 
+Có thể dùng cuộc gọi bị chặn để bổ sung phân nhóm kiểm tra vận hành, kết hợp quy mô nhóm, giá trị 
+và các tín hiệu khác; một biến riêng lẻ chưa đủ để quyết định can thiệp. 
+Cuộc gọi không được trả lời: Nhóm 0–5.3 có 13,132 khách hàng, 4,149 churn, tỷ lệ 31.6% (CI 95% 
+30.8%–32.4%). Nhóm 36.7–848.7 ghi nhận 26.5%; chênh lệch quan sát 5.1 điểm phần trăm. 
+Có thể dùng cuộc gọi không được trả lời để bổ sung phân nhóm kiểm tra vận hành, kết hợp quy mô 
+nhóm, giá trị và các tín hiệu khác; một biến riêng lẻ chưa đủ để quyết định can thiệp. 
+Số cuộc gọi rớt hoặc bị chặn chịu ảnh hưởng cả chất lượng mạng lẫn mức sử dụng. Khách hàng gọi 
+nhiều có nhiều cơ hội gặp sự cố hơn; vì vậy so sánh số đếm thô chưa đủ để quy trách nhiệm cho 
+mạng. Chỉ báo tổng hợp có thể hữu ích để sàng lọc nhưng không thay thế tỷ lệ lỗi trên số cuộc gọi và 
+dữ liệu theo khu vực. 
+Công ty nên kiểm tra hồ sơ sự cố và vùng phủ trước khi ưu đãi tài chính cho khách hàng có tín hiệu 
+chất lượng. Giải quyết nguyên nhân kỹ thuật cần được ưu tiên khi xác nhận có lỗi; bộ phận chăm sóc 
+phải thông báo tiến độ và ghi nhận vấn đề đã được khắc phục. Kết quả liên hệ cần được nối với dữ liệu 
+mạng để đánh giá. 
+Các quan hệ quan sát không chứng minh rằng một cuộc gọi rớt làm khách hàng rời bỏ. Chúng xác định 
+nhóm nên được điều tra và đặt nền cho phân tích kết hợp chất lượng với mức sử dụng. 
+  

@@ -1,0 +1,25 @@
+Cell2Cell  |  20 
+5 8 Thiết bị thuê bao và hồ sơ khách hàng 
+ 
+Hình 5.8 Tuổi thiết bị hiện tại (ngày): nhóm 329–514 ghi nhận churn 34.9% 
+Tuổi thiết bị hiện tại (ngày): Nhóm 329–514 có 12,701 khách hàng, 4,429 churn, tỷ lệ 34.9% (CI 95% 
+34.0%–35.7%). Nhóm -5–205 ghi nhận 22.0%; chênh lệch quan sát 12.9 điểm phần trăm. 
+Số thuê bao đang hoạt động: Nhóm 1–2 có 12,157 khách hàng, 3,773 churn, tỷ lệ 31.0% (CI 95% 
+30.2%–31.9%). Nhóm 2–53 ghi nhận 27.4%; chênh lệch quan sát 3.6 điểm phần trăm. 
+Xếp hạng tín dụng: Nhóm 3-Good có 8,391 khách hàng, 2,600 churn, tỷ lệ 31.0% (CI 95% 30.0%–
+32.0%). Nhóm 5-Low ghi nhận 21.8%; chênh lệch quan sát 9.2 điểm phần trăm. 
+Nhóm thu nhập mã hóa: Nhóm 0 có 12,795 khách hàng, 3,858 churn, tỷ lệ 30.2% (CI 95% 29.4%–
+31.0%). Nhóm >0–5 ghi nhận 27.9%; chênh lệch quan sát 2.3 điểm phần trăm. 
+Tuổi chủ hộ thứ nhất: Nhóm 18–34 có 10,257 khách hàng, 3,119 churn, tỷ lệ 30.4% (CI 95% 29.5%–
+31.3%). Nhóm 52–99 ghi nhận 26.6%; chênh lệch quan sát 3.8 điểm phần trăm. 
+Tuổi thiết bị, mức giá thiết bị và số thuê bao phản ánh nhiều khía cạnh của quan hệ với công ty. Thiết 
+bị cũ có thể phù hợp với nhu cầu hoặc là một tín hiệu cần hỗ trợ; số thuê bao hoạt động khác số thuê 
+bao duy nhất cần được giải thích theo định nghĩa nguồn. Thu nhập và hồ sơ tín dụng có thể liên quan 
+đến lựa chọn gói nhưng không tự tạo căn cứ để áp dụng một chính sách bất lợi. 
+Bộ phận retention nên xác minh tình trạng thiết bị và lịch sử nâng cấp trước khi đề nghị đổi máy. Chính 
+sách có trợ giá cần gắn với điều kiện kinh tế và nhu cầu thật. Các đặc điểm nhân khẩu học chỉ nên hỗ 
+trợ hiểu phân khúc; khi triển khai phải rà soát sự khác biệt hiệu quả và cách phục vụ giữa các nhóm. 
+Kết luận chương 5. Phân tích từng chủ đề tạo ra một tập tín hiệu có ý nghĩa nghiệp vụ. Các tín hiệu 
+cần được kết hợp và kiểm tra ngoài mẫu trước khi dùng làm thứ tự liên hệ; mỗi hành động vẫn cần một 
+phép đo tác động riêng. 
+  

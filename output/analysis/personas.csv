@@ -1,0 +1,6 @@
+﻿customer_persona,customers,actual_churn,churn_rate,mean_probability,monthly_revenue_mean,monthly_minutes_mean,value_proxy_sum,recommended_action
+Giá trị cao và rủi ro cao,4882,2348,0.48095043015157724,0.46708120719083807,87.60633756657109,647.558582548136,427694.14,"Ưu tiên tư vấn cá nhân; kiểm tra chất lượng, gói cước và nhu cầu trước khi đề xuất ưu đãi"
+Nhóm theo dõi và duy trì quan hệ,40837,9733,0.23833778191346083,0.24187783316293054,58.93968337537038,553.6594509880746,2406926.02,Theo dõi định kỳ và chăm sóc theo nhu cầu; chưa cấp ưu đãi đại trà
+Rủi ro cao còn lại,2239,1129,0.5042429656096472,0.48483774245766026,29.177820455560518,150.7820455560518,65337.52,Chăm sóc tự động và khảo sát ngắn; chuyển chuyên viên khi phát hiện vấn đề
+Rủi ro cao kèm giảm sử dụng,1392,709,0.5093390804597702,0.4739194134704612,35.3041091954023,359.54454022988506,49143.32,Xác minh thay đổi nhu cầu; tư vấn gói cước và kích hoạt lại sử dụng phù hợp
+Rủi ro cao kèm thiết bị sử dụng lâu,1541,722,0.46852693056456846,0.4673268222886718,29.240558079169368,91.99805321219986,45059.7,Kiểm tra khả năng đáp ứng của thiết bị; tư vấn đổi thiết bị khi xác minh nhu cầu và điều kiện kinh tế

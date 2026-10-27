@@ -1,0 +1,23 @@
+Cell2Cell  |  13 
+CHƯƠNG 5 CÁC ĐẶC TRƯNG LIÊN QUAN ĐẾN CHURN 
+Chương này tổ chức các biến theo vấn đề kinh doanh. Các khác biệt được mô tả như quan hệ quan 
+sát và được dùng để xác định giả thuyết hành động. Một tỷ lệ cao chỉ trở thành ưu tiên khi đi kèm quy 
+mô đáng kể, thông tin sẵn có và một biện pháp có thể kiểm chứng. 
+5 1 Thời gian gắn bó với công ty 
+ 
+Hình 5.1 Thời gian gắn bó (tháng): nhóm 11–16 ghi nhận churn 34.1% 
+Thời gian gắn bó (tháng): Nhóm 11–16 có 11,389 khách hàng, 3,883 churn, tỷ lệ 34.1% (CI 95% 
+33.2%–35.0%). Nhóm 6–11 ghi nhận 24.0%; chênh lệch quan sát 10.1 điểm phần trăm. 
+Có thể dùng thời gian gắn bó (tháng) để bổ sung phân nhóm kiểm tra vận hành, kết hợp quy mô nhóm, 
+giá trị và các tín hiệu khác; một biến riêng lẻ chưa đủ để quyết định can thiệp. 
+Cách đọc vòng đời cần phân biệt độ dài quan hệ hiện tại với nguy cơ tại từng thời điểm. Khách hàng 
+lâu năm trong ảnh chụp đã có cơ hội duy trì quan hệ lâu hơn; sự khác biệt giữa các nhóm không phải 
+xác suất sống sót theo tháng. Muốn kiểm tra nguy cơ theo hành trình cần bổ sung ngày kích hoạt, ngày 
+rời bỏ và lịch sử trạng thái thuê bao. 
+Bộ phận retention nên dùng kết quả này để điều chỉnh nội dung chăm sóc theo giai đoạn quan hệ. Hỗ 
+trợ kích hoạt và hiểu cước phù hợp với khách hàng mới; rà soát mức sử dụng, thiết bị và quyền lợi phù 
+hợp với khách hàng đã gắn bó. Các khoảng phân nhóm được lấy từ dữ liệu và cần được cập nhật 
+cùng thay đổi cơ cấu thuê bao. 
+Kết quả vòng đời là điểm khởi đầu cho phân tích kết hợp. Chương 6 kiểm tra nó cùng biến động sử 
+dụng và thiết bị để xác định liệu một tín hiệu đơn lẻ có đang phản ánh đặc điểm của nhóm khác. 
+  

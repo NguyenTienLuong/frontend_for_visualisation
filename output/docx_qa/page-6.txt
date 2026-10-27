@@ -1,0 +1,37 @@
+Cell2Cell  |  6 
+CHƯƠNG 1 ĐẶT VẤN ĐỀ 
+Khách hàng rời bỏ làm giảm nguồn doanh thu lặp lại và buộc công ty dành thêm nguồn lực để thay thế 
+thuê bao đã mất. Quyết định giữ chân vì vậy cần bắt đầu từ một câu hỏi vận hành cụ thể: với năng lực 
+liên hệ hữu hạn, bộ phận Customer Retention nên xem xét khách hàng nào trước và có căn cứ gì để 
+chọn hành động cho họ. 
+1 1 Bài toán kinh doanh và phạm vi quyết định 
+Churn trong báo cáo là trạng thái rời bỏ được ghi trong biến mục tiêu của dữ liệu Cell2Cell. Phân tích 
+tìm các đặc điểm liên quan đến trạng thái này và xây dựng một thứ tự ưu tiên. Dữ liệu không ghi lại đầy 
+đủ thời điểm quan sát và toàn bộ lịch sử tiếp xúc, vì vậy báo cáo không gán một khoảng dự báo tương 
+lai cụ thể và không tự tạo tỷ lệ churn theo tháng. 
+Giữ chân hiệu quả đòi hỏi phân biệt rủi ro rời bỏ, giá trị kinh tế và khả năng phản ứng với can thiệp. 
+Một khách hàng có điểm rủi ro cao chưa chắc cần ưu đãi lớn; họ có thể cần giải quyết lỗi mạng hoặc 
+hỗ trợ sử dụng. Ngược lại, một khách hàng doanh thu cao chỉ nên được liên hệ khi lợi ích tăng thêm có 
+thể bù chi phí của chính sách. 
+1 2 Mục tiêu và câu hỏi phân tích 
+Dự án đo quy mô churn trong tập quan sát; mô tả khách hàng theo vòng đời, doanh thu, mức sử dụng, 
+chất lượng cuộc gọi, thiết bị và hồ sơ; xác định các tổ hợp tín hiệu; đánh giá mô hình cảnh báo sớm; và 
+chuyển kết quả thành quy tắc phân bổ nguồn lực. Mỗi kết luận mô tả phải đi kèm quy mô nhóm và tỷ lệ 
+churn để tránh ưu tiên một nhóm chỉ vì nhóm đó đông khách hàng. 
+Các câu hỏi chính là churn tập trung ở giai đoạn quan hệ nào; liệu biến động sử dụng và doanh thu có 
+cung cấp cảnh báo; các chỉ báo cuộc gọi và hỗ trợ có còn hữu ích khi kết hợp với vòng đời; và mô hình 
+bao phủ được bao nhiêu khách hàng churn khi chỉ lựa chọn một phần tập khách hàng. Phần chính 
+sách đặt thêm câu hỏi liệu một hành động có tạo ra giữ chân tăng thêm sau khi tính chi phí. 
+1 3 Quy trình và tiêu chuẩn bằng chứng 
+Quy trình bắt đầu bằng nhận diện cấu trúc và kiểm tra chất lượng dữ liệu, sau đó phân tích so sánh, 
+phân tích kết hợp và xếp hạng tín hiệu. Mô hình được huấn luyện sau khi loại biến có nguy cơ rò rỉ; 
+hiệu quả chọn khách hàng được kiểm tra trên phần dữ liệu chưa dùng để chọn mô hình. Điểm rủi ro 
+được ghép với đại diện giá trị để thiết kế phân khúc, chính sách và KPI. 
+Các biểu đồ dùng vị trí và chiều dài để so sánh, màu cam để tập trung vào churn và nền xám cho nhóm 
+duy trì dịch vụ. Mỗi hình trả lời một câu hỏi cụ thể; chú giải, nhãn và chú thích được giới hạn ở thông 
+tin cần cho quyết định. Tương tác trong notebook hỗ trợ nhận diện, lọc và so sánh từng khách hàng, 
+còn báo cáo chọn các hình cần thiết để truyền đạt kết luận. 
+Kết luận chương 1. Mục tiêu của dự án là hỗ trợ một quyết định liên hệ có giới hạn nguồn lực. Bằng 
+chứng quan sát được dùng để đặt ưu tiên và xây dựng giả thuyết; tác động thực sự của chính sách 
+phải được kiểm chứng bằng thử nghiệm. 
+  

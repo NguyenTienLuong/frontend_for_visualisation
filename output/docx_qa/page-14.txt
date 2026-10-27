@@ -1,0 +1,24 @@
+Cell2Cell  |  14 
+5 2 Doanh thu tháng và mức phí định kỳ 
+ 
+Hình 5.2 Doanh thu hàng tháng (đơn vị dữ liệu): nhóm -6.2–33.6 ghi nhận churn 31.4% 
+Doanh thu hàng tháng (đơn vị dữ liệu): Nhóm -6.2–33.6 có 12,728 khách hàng, 3,995 churn, tỷ lệ 
+31.4% (CI 95% 30.6%–32.2%). Nhóm 33.6–48.5 ghi nhận 27.1%; chênh lệch quan sát 4.3 điểm phần 
+trăm. 
+Có thể dùng doanh thu hàng tháng (đơn vị dữ liệu) để bổ sung phân nhóm kiểm tra vận hành, kết hợp 
+quy mô nhóm, giá trị và các tín hiệu khác; một biến riêng lẻ chưa đủ để quyết định can thiệp. 
+Phí định kỳ (đơn vị dữ liệu): Nhóm -11–30 có 14,176 khách hàng, 4,749 churn, tỷ lệ 33.5% (CI 95% 
+32.7%–34.3%). Nhóm 60–400 ghi nhận 24.0%; chênh lệch quan sát 9.5 điểm phần trăm. 
+Có thể dùng phí định kỳ (đơn vị dữ liệu) để bổ sung phân nhóm kiểm tra vận hành, kết hợp quy mô 
+nhóm, giá trị và các tín hiệu khác; một biến riêng lẻ chưa đủ để quyết định can thiệp. 
+Doanh thu tháng vừa liên quan tới cường độ sử dụng vừa phản ánh cấu trúc gói và các khoản phát 
+sinh. Mức phí định kỳ giúp tách một phần cam kết nền khỏi chi tiêu vượt gói. So sánh hai trường này 
+có giá trị để đặt câu hỏi về mức phù hợp của gói, nhưng chưa đủ để kết luận khách hàng không hài 
+lòng với giá. 
+Trước khi đề nghị giảm giá, công ty cần rà soát thành phần hóa đơn, mức sử dụng và biên lợi nhuận 
+của từng hồ sơ. Khách hàng doanh thu cao cần một chính sách bảo vệ trải nghiệm và giá trị; một ưu 
+đãi đại trà cho mọi khách hàng có mức phí cao có thể giảm doanh thu mà không tạo giữ chân tăng 
+thêm. 
+Cần theo dõi cả tỷ lệ churn và phần doanh thu gắn với từng nhóm. Mục tiêu tiếp theo là kiểm tra doanh 
+thu cao do sử dụng thật hay do chi phí phát sinh chưa phù hợp. 
+  

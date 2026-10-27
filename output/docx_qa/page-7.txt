@@ -1,0 +1,40 @@
+Cell2Cell  |  7 
+CHƯƠNG 2 TỔNG QUAN DỮ LIỆU VÀ PHƯƠNG PHÁP 
+Dữ liệu được đọc từ nguồn Cell2Cell qua bộ tải empulse theo hướng dẫn đã cung cấp. Cấu trúc và 
+kiểu dữ liệu được nhận diện từ dữ liệu tải về, thay vì áp một danh sách cột cố định từ phiên bản khác. 
+Các bảng và hình trong báo cáo cùng sử dụng một bộ kết quả phân tích đã lưu để bảo đảm đồng nhất 
+với notebook. 
+Nguồn gốc có 51.047 dòng và 58 cột. Bộ tải nguồn loại 156 dòng thiếu MonthlyRevenue, tạo cohort 
+phân tích 50.891 khách hàng. Toàn bộ tỷ lệ trong EDA và mô hình của báo cáo dùng cohort này, trừ 
+phần kiểm tra dữ liệu nguồn được ghi rõ. Quy tắc loại dòng là xử lý của nguồn và có thể ảnh hưởng 
+tính đại diện. 
+Trong phần bị loại, 70 trên 156 khách hàng có nhãn churn, tương ứng 44,9%, so với 28,8% ở cohort 
+còn lại. Vì vậy không suy rộng trực tiếp tỷ lệ cohort cho toàn bộ nguồn hoặc cơ sở thuê bao hiện tại. 
+Bảng 2.1 Quy mô và cấu trúc tập quan sát 
+Chỉ tiêu Giá trị Diễn giải 
+Hồ sơ khách hàng 50.891 Tập có nhãn sử dụng cho phân tích 
+Biến đầu vào 56 Không bao gồm nhãn mục tiêu 
+Biến số 34 Theo kiểu dữ liệu đã nhận diện 
+Biến phân loại 22 Bao gồm các trường mã hóa phân nhóm 
+Khách hàng churn 14.641 Số hồ sơ có nhãn mục tiêu bằng một 
+Tỷ lệ churn 28,8% Mẫu số là toàn bộ tập có nhãn 
+ 
+2 1 Đơn vị quan sát và ý nghĩa biến 
+Đơn vị quan sát là một hồ sơ khách hàng trong ảnh chụp dữ liệu. Các chỉ báo mức sử dụng, doanh thu 
+và chất lượng cuộc gọi được hiểu theo nhãn biến và mô tả đi kèm nguồn dữ liệu. Các trường thay đổi 
+như PercChangeMinutes và PercChangeRevenues được giữ theo đơn vị do nguồn cung cấp; tên có 
+chữ PercChange không đủ để tự chuyển đổi mọi giá trị thành phần trăm. 
+Bảng 2.2 Từ điển các biến chính 
+Biến Nhóm Ý nghĩa phân tích 
+MonthlyRevenue Doanh thu và phí Doanh thu tháng theo trường nguồn 
+MonthlyMinutes Sử dụng và cuộc gọi Mức sử dụng phút gọi 
+MonthsInService Quan hệ với công ty Thời gian quan hệ tính bằng tháng 
+TotalRecurringCharge Doanh thu và phí Mức phí định kỳ 
+PercChangeMinutes Sử dụng và cuộc gọi Thay đổi sử dụng theo định nghĩa nguồn 
+PercChangeRevenues Doanh thu và phí Thay đổi doanh thu theo định nghĩa nguồn 
+DroppedCalls Trải nghiệm dịch vụ Chỉ báo cuộc gọi bị rớt 
+BlockedCalls Trải nghiệm dịch vụ Chỉ báo cuộc gọi bị chặn 
+CustomerCareCalls Trải nghiệm dịch vụ Mức liên hệ chăm sóc khách hàng 
+CurrentEquipmentDays Thiết bị Số ngày sử dụng thiết bị hiện tại 
+ 
+  

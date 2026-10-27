@@ -1,0 +1,22 @@
+Cell2Cell  |  21 
+CHƯƠNG 6 PHÂN TÍCH ĐA BIẾN VÀ CẢNH BÁO 
+Một tín hiệu đơn lẻ có thể chỉ phản ánh đặc điểm của vòng đời hoặc mức sử dụng. Phân tích đa biến 
+xem các tổ hợp để hiểu phạm vi của khác biệt, nhận diện các ô có ít khách hàng và tránh mô tả một 
+mức churn cao như một quy tắc áp dụng cho mọi thuê bao. 
+ 
+Hình 6.1 MonthsInService × MonthlyMinutes: nhóm n≥100 cao nhất đạt churn 37.9% 
+Nhóm MonthsInService=11–16 và MonthlyMinutes=0–158 có 2,491 khách hàng; churn 37.9% (CI 95% 
+36.1%–39.9%). Đây là tổ hợp quan sát, chưa xác nhận tương tác nhân quả. 
+Nhóm DroppedCalls=0–0.7 và CustomerCareCalls=0 có 10,645 khách hàng; churn 31.5% (CI 95% 
+30.6%–32.3%). Đây là tổ hợp quan sát, chưa xác nhận tương tác nhân quả. 
+6 1 Hành trình rủi ro và điều kiện hành động 
+Các ô kết hợp cần được đọc cùng số khách hàng và mức nền chung. Một chênh lệch lớn ở ô rất nhỏ 
+có thể không ổn định; một ô đông khách hàng với chênh lệch vừa phải có thể quan trọng hơn về nguồn 
+lực. Phân tích này tìm phạm vi cần thử nghiệm, không xác nhận một tương tác nhân quả. 
+Hành trình chăm sóc bắt đầu bằng tín hiệu quan sát được, sau đó xác minh vấn đề rồi mới chọn hành 
+động. Sự cố cần đối chiếu nhật ký kỹ thuật; thiết bị cần xác nhận tình trạng. Việc kết hợp này giúp chọn 
+nội dung chẩn đoán, không xác định nguyên nhân churn. 
+Kết luận chương 6. Sự kết hợp các tín hiệu giúp đặt bối cảnh cho một trường hợp rủi ro. Mô hình ở 
+Chương 8 sẽ kiểm tra liệu nhiều thông tin cùng nhau có cải thiện khả năng sắp hạng trên khách hàng 
+chưa dùng để huấn luyện. 
+  

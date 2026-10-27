@@ -1,0 +1,35 @@
+Cell2Cell  |  30 
+11 2 Ưu tiên hành động và nguyên tắc kinh tế 
+Bảng 11.2 Ma trận ưu tiên triển khai 
+Ưu tiên Điều kiện theo danh sách điểm Hành động KPI 
+P1 Giá trị cao và rủi ro cao hoặc rất 
+cao 
+Rà soát cá nhân; xử lý vấn đề đã 
+xác minh 
+Giữ chân tăng thêm và chi 
+phí 
+P2 Giá trị cao và rủi ro trung bình Chăm sóc theo nhu cầu; xác 
+minh tín hiệu 
+Retention lift và giá trị tăng 
+thêm 
+P3 Giá trị thấp hơn ngưỡng, rủi ro 
+trung bình hoặc cao 
+Kênh chi phí thấp và offer có 
+chọn lọc 
+Chi phí trên giữ chân tăng 
+thêm 
+P4 Các hồ sơ còn lại Theo dõi và duy trì quan hệ Churn rate và chi phí 
+chăm sóc 
+ 
+Giá trị kỳ vọng của một liên hệ cần dựa trên xác suất giữ chân tăng thêm do hành động, phần đóng 
+góp kinh tế nếu giữ được khách hàng, chi phí liên hệ và chi phí offer. Xác suất churn dự báo chưa phải 
+xác suất tác động của offer. Chỉ nên dùng điểm churn để sắp hạng trước khi có dữ liệu thử nghiệm đủ 
+tốt để học tác động khác biệt giữa các khách hàng. 
+Công thức quyết định là lợi ích tăng thêm kỳ vọng bằng mức tăng xác suất duy trì do can thiệp nhân 
+với giá trị đóng góp trong kỳ đánh giá, trừ chi phí liên hệ và chi phí ưu đãi kỳ vọng. ROI bằng lợi ích 
+ròng tăng thêm chia cho tổng chi phí chiến dịch. Các thành phần chưa có trong nguồn dữ liệu cần 
+được đo hoặc cung cấp trước khi tính kết quả bằng tiền. 
+Kết luận chương 11. Ưu tiên trước là xử lý đúng vấn đề cho khách hàng đáng quan tâm, sau đó mới tối 
+ưu mức offer. Một chính sách chỉ nên mở rộng khi chứng minh được giữ chân tăng thêm và hiệu quả 
+kinh tế so với nhóm đối chứng. 
+  

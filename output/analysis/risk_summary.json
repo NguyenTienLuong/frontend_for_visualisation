@@ -1,0 +1,203 @@
+{
+  "risk_cutoffs": {
+    "medium": 0.2797347831957476,
+    "high": 0.3889414597652775,
+    "very_high": 0.4500854920422537
+  },
+  "high_value_threshold": 48.53,
+  "total_scored": 50891,
+  "historical_nonchurn_candidates": 36250,
+  "candidate_priorities": [
+    {
+      "priority_level": "P1",
+      "customers": 2534,
+      "mean_probability": 0.456948152326314,
+      "value_proxy_sum": 225041.37
+    },
+    {
+      "priority_level": "P2",
+      "customers": 4548,
+      "mean_probability": 0.32883132441144003,
+      "value_proxy_sum": 382400.52999999997
+    },
+    {
+      "priority_level": "P3",
+      "customers": 8250,
+      "mean_probability": 0.37130945350699474,
+      "value_proxy_sum": 261360.75
+    },
+    {
+      "priority_level": "P4",
+      "customers": 20918,
+      "mean_probability": 0.18523945014668017,
+      "value_proxy_sum": 1276252.66
+    }
+  ],
+  "personas": [
+    {
+      "customer_persona": "Giá trị cao và rủi ro cao",
+      "customers": 4882,
+      "actual_churn": 2348,
+      "churn_rate": 0.48095043015157724,
+      "mean_probability": 0.46708120719083807,
+      "monthly_revenue_mean": 87.60633756657109,
+      "monthly_minutes_mean": 647.558582548136,
+      "value_proxy_sum": 427694.14,
+      "recommended_action": "Ưu tiên tư vấn cá nhân; kiểm tra chất lượng, gói cước và nhu cầu trước khi đề xuất ưu đãi"
+    },
+    {
+      "customer_persona": "Nhóm theo dõi và duy trì quan hệ",
+      "customers": 40837,
+      "actual_churn": 9733,
+      "churn_rate": 0.23833778191346083,
+      "mean_probability": 0.24187783316293054,
+      "monthly_revenue_mean": 58.93968337537038,
+      "monthly_minutes_mean": 553.6594509880746,
+      "value_proxy_sum": 2406926.02,
+      "recommended_action": "Theo dõi định kỳ và chăm sóc theo nhu cầu; chưa cấp ưu đãi đại trà"
+    },
+    {
+      "customer_persona": "Rủi ro cao còn lại",
+      "customers": 2239,
+      "actual_churn": 1129,
+      "churn_rate": 0.5042429656096472,
+      "mean_probability": 0.48483774245766026,
+      "monthly_revenue_mean": 29.177820455560518,
+      "monthly_minutes_mean": 150.7820455560518,
+      "value_proxy_sum": 65337.52,
+      "recommended_action": "Chăm sóc tự động và khảo sát ngắn; chuyển chuyên viên khi phát hiện vấn đề"
+    },
+    {
+      "customer_persona": "Rủi ro cao kèm giảm sử dụng",
+      "customers": 1392,
+      "actual_churn": 709,
+      "churn_rate": 0.5093390804597702,
+      "mean_probability": 0.4739194134704612,
+      "monthly_revenue_mean": 35.3041091954023,
+      "monthly_minutes_mean": 359.54454022988506,
+      "value_proxy_sum": 49143.32,
+      "recommended_action": "Xác minh thay đổi nhu cầu; tư vấn gói cước và kích hoạt lại sử dụng phù hợp"
+    },
+    {
+      "customer_persona": "Rủi ro cao kèm thiết bị sử dụng lâu",
+      "customers": 1541,
+      "actual_churn": 722,
+      "churn_rate": 0.46852693056456846,
+      "mean_probability": 0.4673268222886718,
+      "monthly_revenue_mean": 29.240558079169368,
+      "monthly_minutes_mean": 91.99805321219986,
+      "value_proxy_sum": 45059.7,
+      "recommended_action": "Kiểm tra khả năng đáp ứng của thiết bị; tư vấn đổi thiết bị khi xác minh nhu cầu và điều kiện kinh tế"
+    }
+  ],
+  "priorities": [
+    {
+      "priority_level": "P1",
+      "customers": 4882,
+      "actual_churn": 2348,
+      "churn_rate": 0.48095043015157724,
+      "mean_probability": 0.46708120719083807,
+      "value_proxy_sum": 427694.14
+    },
+    {
+      "priority_level": "P2",
+      "customers": 6746,
+      "actual_churn": 2198,
+      "churn_rate": 0.32582270975392824,
+      "mean_probability": 0.33008418954987556,
+      "value_proxy_sum": 563312.3900000001
+    },
+    {
+      "priority_level": "P3",
+      "customers": 13623,
+      "actual_churn": 5373,
+      "churn_rate": 0.39440651838802027,
+      "mean_probability": 0.38606053552388786,
+      "value_proxy_sum": 428564.82
+    },
+    {
+      "priority_level": "P4",
+      "customers": 25640,
+      "actual_churn": 4722,
+      "churn_rate": 0.1841653666146646,
+      "mean_probability": 0.1894271691415615,
+      "value_proxy_sum": 1574589.35
+    }
+  ],
+  "risk_segments": [
+    {
+      "risk_segment": "High Risk",
+      "customers": 5039,
+      "actual_churn": 2162,
+      "churn_rate": 0.4290533836078587,
+      "mean_probability": 0.4164666076127841
+    },
+    {
+      "risk_segment": "Low Risk",
+      "customers": 25640,
+      "actual_churn": 4722,
+      "churn_rate": 0.1841653666146646,
+      "mean_probability": 0.18942716914156152
+    },
+    {
+      "risk_segment": "Medium Risk",
+      "customers": 15197,
+      "actual_churn": 5011,
+      "churn_rate": 0.32973613213134173,
+      "mean_probability": 0.33037128749654265
+    },
+    {
+      "risk_segment": "Very High Risk",
+      "customers": 5015,
+      "actual_churn": 2746,
+      "churn_rate": 0.5475573280159521,
+      "mean_probability": 0.5278391584855989
+    }
+  ],
+  "signal_evidence_train": {
+    "usage_decline": {
+      "train_customers": 7629,
+      "train_churn_rate": 0.3179971162668764,
+      "wilson_lower_95": 0.30764087846834903,
+      "train_baseline": 0.28771205868867494,
+      "included_as_risk_signal": true
+    },
+    "revenue_decline": {
+      "train_customers": 7629,
+      "train_churn_rate": 0.29073273037095293,
+      "wilson_lower_95": 0.2806502577249036,
+      "train_baseline": 0.28771205868867494,
+      "included_as_risk_signal": false
+    },
+    "quality": {
+      "train_customers": 7600,
+      "train_churn_rate": 0.2797368421052632,
+      "wilson_lower_95": 0.2697584152963045,
+      "train_baseline": 0.28771205868867494,
+      "included_as_risk_signal": false
+    },
+    "care": {
+      "train_customers": 7289,
+      "train_churn_rate": 0.2532583344766086,
+      "wilson_lower_95": 0.24340662535554244,
+      "train_baseline": 0.28771205868867494,
+      "included_as_risk_signal": false
+    },
+    "equipment": {
+      "train_customers": 7628,
+      "train_churn_rate": 0.3362611431567908,
+      "wilson_lower_95": 0.32574410601247394,
+      "train_baseline": 0.28771205868867494,
+      "included_as_risk_signal": true
+    },
+    "tenure_band": {
+      "train_customers": 6772,
+      "train_churn_rate": 0.3422917897223863,
+      "wilson_lower_95": 0.33108337228307166,
+      "train_baseline": 0.28771205868867494,
+      "included_as_risk_signal": true
+    }
+  },
+  "score_caveat": "OOF historical scores exclude each customer's own label during fitting but model specification was selected on historical validation. Use untouched test metrics as the sole final performance estimate. These already-observed labels are not a live future campaign list.",
+  "policy_note": "Risk bands use validation quantiles. P1 high value and high risk; P2 high value and medium risk; P3 lower value and medium/high risk; P4 otherwise. Revenue times risk is an exposure ranking proxy, not CLV, avoidable loss or incremental retention benefit. Descriptive flags require n>=100 and Wilson 95% lower bound above train baseline; these heuristic flags are not model-local explanations or confirmatory causal tests."
+}

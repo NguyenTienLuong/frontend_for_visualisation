@@ -1,0 +1,34 @@
+Cell2Cell  |  23 
+CHƯƠNG 8 MÔ HÌNH DỰ ĐOÁN CHURN 
+Mô hình phục vụ cảnh báo trước khi khách hàng được đưa vào quy trình retention. Nhãn đầu ra là 
+churn theo nguồn dữ liệu. Do không có đầy đủ mốc thời gian, kết quả là đánh giá ngoài mẫu trên ảnh 
+chụp lịch sử; trước vận hành cần bổ sung đánh giá theo thời gian và xác định rõ cửa sổ quan sát, 
+khoảng dự báo, ngày chấm điểm và thời điểm chốt kết quả. 
+Bảng 8.1 Phân chia dữ liệu có phân tầng 
+Phần dữ liệu Số khách hàng Số churn Tỷ lệ churn 
+train 30.534 8.785 28,8% 
+validation 10.178 2.928 28,8% 
+test 10.179 2.928 28,8% 
+ 
+Bảng 8.2 So sánh mô hình trên validation 
+Mô hình ROC AUC Average 
+Precision 
+Precision top 
+10% 
+Capture top 
+20% Brier 
+Histogram Gradient Boosting 0,666 0,447 0,549 0,332 0,190 
+Random Forest 0,661 0,436 0,525 0,319 0,192 
+Logistic Regression 0,619 0,393 0,457 0,292 0,197 
+ 
+8 1 Chọn mô hình và chuẩn bị đặc trưng 
+Mô hình được chọn là Histogram Gradient Boosting. Không dùng hiệu chỉnh bên ngoài vì phép thử 
+sigmoid không đáp ứng tiêu chí cải thiện trên validation. Brier trước hiệu chỉnh trên validation là 0,1898; 
+phương án sigmoid cho 0,1898. Mô hình cơ sở và các mô hình cây được so sánh trên cùng cách chia 
+dữ liệu. Các bước điền khuyết, mã hóa và chuẩn hóa nằm trong pipeline, bảo đảm phần kiểm tra 
+không tham gia học tham số tiền xử lý. 
+Accuracy được trình bày cùng các chỉ số khác nhưng không quyết định mô hình một mình. ROC AUC 
+đánh giá khả năng phân biệt thứ tự; Average Precision gắn với chất lượng precision và recall; Brier 
+score đánh giá sai số xác suất; các chỉ số tại ngưỡng thể hiện hệ quả của một quyết định liên hệ cụ 
+thể. 
+  

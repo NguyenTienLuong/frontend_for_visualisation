@@ -1,0 +1,28 @@
+Cell2Cell  |  32 
+12 2 Hệ thống KPI và tiêu chuẩn mở rộng 
+Bảng 12.2 KPI gắn với dự báo và tác động 
+KPI Công thức Ý nghĩa và tần suất 
+Churn rate Số churn chia số đủ điều kiện trong kỳ Theo tổng thể, rủi ro và giá trị mỗi kỳ nhãn 
+Precision nhóm ưu tiên Churn trong nhóm được chọn chia số 
+được chọn Chất lượng xếp hạng mỗi đợt nhãn hoàn tất 
+High risk capture Churn trong nhóm được chọn chia tổng 
+churn Độ bao phủ theo năng lực liên hệ 
+Lift Precision nhóm chọn chia churn rate nền So với lựa chọn ngẫu nhiên 
+Contact rate Khách hàng liên hệ thành công chia được 
+phân công Khả năng thực thi hằng chiến dịch 
+Offer acceptance Khách hàng nhận offer chia khách hàng 
+được đề nghị Phản ứng với offer theo chính sách 
+Incremental retention Tỷ lệ duy trì treatment trừ control Tác động tăng thêm khi hết kỳ theo dõi 
+Chi phí giữ chân tăng thêm Tổng chi phí chia số duy trì tăng thêm Chỉ tính khi hiệu quả tăng thêm dương 
+Giá trị được bảo vệ Đóng góp treatment trừ control sau quy 
+đổi Cùng định nghĩa chi phí và kỳ đánh giá 
+Duy trì theo cửa sổ Trạng thái sau các mốc theo dõi đã định Đo ngắn và dài hạn theo thiết kế thử nghiệm 
+ 
+Incremental retention lift bằng tỷ lệ duy trì của treatment trừ tỷ lệ duy trì của control; tương đương 
+churn rate control trừ churn rate treatment khi dùng cùng mẫu số. So sánh trước và sau một chiến dịch 
+không kiểm soát được thay đổi nhu cầu, mùa vụ và cách chọn khách hàng, nên không đủ để xác nhận 
+tác động. 
+Kết luận chương 12. Mở rộng chương trình cần đồng thời đáp ứng giữ chân tăng thêm, hiệu quả chi 
+phí và chất lượng thực thi. Các mốc theo dõi ngắn và dài hạn là tham số thiết kế chính sách cần được 
+thống nhất trước; báo cáo không suy ra chúng từ dữ liệu ảnh chụp. 
+  

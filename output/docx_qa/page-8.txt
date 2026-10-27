@@ -1,0 +1,38 @@
+Cell2Cell  |  8 
+2 2 Phương pháp và cách đọc bằng chứng 
+Phân tích mô tả so sánh các nhóm theo quy mô, số churn và tỷ lệ churn. Với biến liên tục, các khoảng 
+được xây từ phân phối quan sát hoặc một ngưỡng có nghĩa kinh doanh được ghi rõ. Nhóm thiếu dữ 
+liệu được giữ riêng trong phân tích mô tả khi cần, giúp tránh bỏ qua các khách hàng không có giá trị đo 
+lường. 
+Bảng 2.3 Phương pháp gắn với quyết định 
+Phương pháp Câu hỏi Giới hạn cần giữ 
+Thống kê và phân phối Đặc điểm điển hình và mức phân tán Trung bình có thể chịu ảnh hưởng giá trị cực trị 
+Tỷ lệ churn theo nhóm Rủi ro quan sát tập trung ở đâu Luôn đọc cùng quy mô nhóm và khoảng bất 
+định 
+Phân tích đa biến Tổ hợp tín hiệu có khác biệt gì Quan hệ quan sát không xác nhận nguyên 
+nhân 
+Đánh giá mô hình Sắp hạng và lựa chọn được ai Tập kiểm tra lịch sử không bảo đảm tương lai 
+Rủi ro và giá trị Ưu tiên nguồn lực cho ai Doanh thu tháng chưa phải biên lợi nhuận 
+Thử nghiệm đối chứng Chính sách tạo thêm giữ chân hay 
+không Cần ngẫu nhiên hóa và theo dõi kết quả 
+ 
+2 3 Nguyên tắc trực quan hóa 
+Tư duy Storytelling with Data được áp dụng bằng cách bắt đầu từ người ra quyết định và câu hỏi kinh 
+doanh, chọn hình phù hợp, giảm chi tiết trang trí và dùng màu có chủ đích. Các thanh tỷ lệ đặt cạnh 
+nhãn nhóm giúp so sánh trực tiếp; biểu đồ phân phối giữ thông tin về độ lệch; đường biểu diễn chỉ 
+dùng cho thứ tự có nghĩa; heatmap dành cho tương tác cần đọc theo hai chiều. 
+Theo tư duy Interactive Data Visualization, bốn công cụ khám phá trong notebook có nhiệm vụ rõ ràng: 
+xác định khách hàng có điểm và giá trị đáng chú ý; so sánh sử dụng với doanh thu; lọc các thay đổi 
+hành vi; và kiểm tra phân phối điểm. Hover hiển thị thuộc tính cần thiết để nhận diện, còn lọc và chọn 
+giúp chuyển từ tổng quan sang trường hợp cụ thể. Dữ liệu tương tác vẫn là dữ liệu lịch sử trong phạm 
+vi phân tích. 
+2 4 Nguồn và khả năng tái lập 
+Nguồn dữ liệu chính là bộ Cell2Cell được bộ tải empulse cung cấp. Nguồn phương pháp trực quan là 
+Cole Nussbaumer Knaflic, Storytelling with Data, và Matthew O Ward, Georges Grinstein, Daniel Keim, 
+Interactive Data Visualization Foundations Techniques and Applications. Các tài liệu định hướng cách 
+biểu diễn và thao tác khám phá; mọi số đo khách hàng trong báo cáo được tính từ dữ liệu phân tích 
+của công ty. 
+Kết luận chương 2. Cấu trúc thực tế của dữ liệu quyết định phạm vi phân tích. Báo cáo thống nhất đơn 
+vị quan sát, mẫu số và giới hạn diễn giải trước khi xem xét các khác biệt giữa churn và nhóm duy trì 
+dịch vụ. 
+  

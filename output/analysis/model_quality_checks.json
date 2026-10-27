@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "historical_score_rows": 50891,
+  "unique_customer_ids": 50891,
+  "oof_folds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "scores_in_unit_interval": true,
+  "identifier_and_retention_exclusion": true,
+  "evaluation_model_reload_predictions_match": true,
+  "production_model_reload_predictions_finite": true,
+  "model_feature_count": 56
+}

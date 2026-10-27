@@ -1,0 +1,20 @@
+Cell2Cell  |  25 
+8 3 Ngưỡng quyết định và giải thích mô hình 
+ 
+Hình 8.3 PercChangeMinutes có mức đóng góp xếp hạng lớn nhất khi hoán vị 
+ 
+Hình 8.4 Ngưỡng 0.389 tương ứng kịch bản năng lực top 20% 
+Các trường có mức giảm Average Precision lớn nhất khi hoán vị là PercChangeMinutes 0,069; 
+MonthsInService 0,043; CurrentEquipmentDays 0,039. Các giá trị này đo phụ thuộc dự báo trong mô 
+hình hiện tại, không phải mức giảm churn có thể đạt bằng hành động. 
+Ngưỡng được chọn trên validation và được khóa trước khi đánh giá test. Kịch bản năng lực liên hệ 
+dùng 20% số khách hàng là giả định lập kế hoạch, không phải mức ngân sách hay năng lực đã được 
+công ty xác nhận. Khi năng lực thay đổi, nên dùng thứ tự điểm và bảng targeting để lựa chọn quy mô 
+phù hợp. 
+Permutation importance đo mức giảm chất lượng dự báo khi xáo trộn một trường trên dữ liệu kiểm tra. 
+Nó không cho biết tác động nhân quả hoặc một hành động sửa trường đó sẽ giảm churn bao nhiêu. 
+Các tín hiệu dễ trùng lặp có thể chia sẻ tầm quan trọng; tín hiệu rủi ro trên từng hồ sơ cần được dùng 
+làm gợi ý xác minh thay vì lời giải thích chắc chắn cho quyết định của khách hàng. 
+Kết luận chương 8. Mô hình cung cấp một thứ tự rủi ro có thể đo lường ngoài mẫu. Lựa chọn vận hành 
+cần ghép thứ tự đó với năng lực liên hệ, giá trị khách hàng và kết quả thử nghiệm giữ chân. 
+  
