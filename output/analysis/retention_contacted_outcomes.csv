@@ -1,3 +1,0 @@
-﻿group,n,churn_count,churn_rate,ci_low,ci_high,small_group
-Có ≥1 offer được chấp nhận,876,359,0.4098173515981735,0.37771238449171185,0.44270980814765604,False
-Không ghi nhận accepted offer,857,421,0.4912485414235706,0.4578919158574025,0.5246832728183971,False
